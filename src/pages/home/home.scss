@@ -1,0 +1,99 @@
+page-home {
+    
+    ion-icon{
+        text-align: left ;
+        float: left;
+    }
+    
+    ion-content{
+        color:rgb(233, 232, 232);
+        background-image: url(../../assets/imgs/home2.png) ;
+        background-size: cover;
+        background-position: center;
+    }
+
+    ion-col{
+        color:rgb(233, 232, 232);
+    }
+
+    .container{
+        text-align: center;
+        margin: 0 auto;
+        max-width: 500px;
+    }
+    
+    .separador{
+       
+        background-color:rgb(233, 232, 232);
+        height: 0.6px;
+        width:80%;
+      
+        margin: 0 auto;
+    }
+  
+    .espacio{
+        padding: 4em;
+        background-color:transparent;
+    }
+    
+    .logo{
+        background-image: url(../assets/takalogo.png);
+        padding:3em;
+        text-align: center;
+    }
+    
+     .button{
+        color:#67C44D;
+        width: 80%;
+        height: 2.5em;
+        background-color:black;
+        opacity: 0.85;
+    }
+    
+    .button:hover{
+        color:rgb(233, 232, 232);
+        background-color: #67C44D;
+        border:#67C44D 2px solid;
+    }
+
+    .button2{
+        color:#67C44D;
+        width: 80%;
+        height: 2.5em;
+        background-color:black;
+        opacity: 0.85;
+    }
+
+    .button2:hover{
+        color:rgb(233, 232, 232);;
+        background-color: #EE2B47;
+        border:#EE2B47 2px solid;
+    }
+
+    .button3{
+        opacity: 0.7;
+        width: 80%;
+        height: 2.5em;
+        color:#FFFFFF;
+        background-color:#34508D;
+        border:#34508D 2px solid;
+    }
+
+    .button3:hover{
+        color:#34508D;
+        background-color: #FFFFFF;
+        border:#FFFFFF 2px solid;
+        opacity: 0.9;
+    }
+
+    .links{
+        margin:0 auto;
+        color: #FFFFFF;
+        font-size: 0.8em;
+        width: 75%;
+    }
+
+    p:hover{
+        color:#67C44D;
+    }
+}

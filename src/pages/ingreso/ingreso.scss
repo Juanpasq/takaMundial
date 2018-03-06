@@ -1,0 +1,56 @@
+page-ingreso {
+    
+    ion-content{
+        margin: 0auto;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-position: center;
+        background: url(../../assets/imgs/Stadium.png)no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    ion-item{
+        background-color:black;
+    }
+
+    .container{
+        margin: 0 auto;
+        padding:2em;
+        background-color:rgba(8,8,8,0.8);
+        margin-top:10%;
+        max-width: 400px;
+    }
+
+    .button{
+        margin: 0 auto;
+        color:#67C44D;
+        width: 100%;
+        background-color:black;
+        opacity: 0.85;
+    }
+    
+    .button:hover{
+        color:rgb(233, 232, 232);
+        background-color: #67C44D;
+        border:#67C44D 2px solid;
+    }
+
+    .links{
+        margin:0 auto;
+        color: #FFFFFF;
+        font-size: 0.8em;
+        width: 75%;
+    }
+
+    p:hover{
+        color:#67C44D;
+    }
+    
+    ion-item{
+        
+    }
+
+}
